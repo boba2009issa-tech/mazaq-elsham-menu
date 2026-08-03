@@ -1,0 +1,186 @@
+{
+  "restaurantName": "مذاق الشامي",
+  "categories": [
+    {
+      "id": "pizza",
+      "name": "البيتزا",
+      "items": [
+        {"id":"margherita","name":"بيتزا مارجريتا","image":"https://images.pexels.com/photos/20115306/pexels-photo-20115306.jpeg?auto=compress&cs=tinysrgb&w=600","sizes":{"small":80,"medium":95,"large":110}},
+        {"id":"vegetables","name":"بيتزا خضار","image":"https://images.pexels.com/photos/5640015/pexels-photo-5640015.jpeg?auto=compress&cs=tinysrgb&w=600","sizes":{"small":80,"medium":95,"large":110}},
+        {"id":"sausage","name":"بيتزا سجق","image":"https://images.pexels.com/photos/11485217/pexels-photo-11485217.jpeg?auto=compress&cs=tinysrgb&w=600","sizes":{"small":90,"medium":105,"large":120}},
+        {"id":"mix-cheese","name":"بيتزا ميكس جبن","image":"https://images.pexels.com/photos/17849431/pexels-photo-17849431.jpeg?auto=compress&cs=tinysrgb&w=600","sizes":{"small":90,"medium":105,"large":120}},
+        {"id":"mushroom","name":"بيتزا مشروم","image":"https://images.pexels.com/photos/26341212/pexels-photo-26341212.jpeg?auto=compress&cs=tinysrgb&w=600","sizes":{"small":90,"medium":105,"large":120}},
+        {"id":"pastrami","name":"بيتزا بسطرمة","image":"https://images.pexels.com/photos/5175556/pexels-photo-5175556.jpeg?auto=compress&cs=tinysrgb&w=600","sizes":{"small":90,"medium":105,"large":120}},
+        {"id":"chicken-shawarma","name":"بيتزا شاورما فراخ","image":"https://images.pexels.com/photos/20115307/pexels-photo-20115307.jpeg?auto=compress&cs=tinysrgb&w=600","sizes":{"small":90,"medium":105,"large":120}},
+        {"id":"salami","name":"بيتزا سلامي","image":"https://images.pexels.com/photos/11653777/pexels-photo-11653777.jpeg?auto=compress&cs=tinysrgb&w=600","sizes":{"small":90,"medium":105,"large":120}},
+        {"id":"minced-meat","name":"بيتزا لحم مفروم","image":"https://images.pexels.com/photos/7813738/pexels-photo-7813738.jpeg?auto=compress&cs=tinysrgb&w=600","sizes":{"small":90,"medium":105,"large":120}},
+        {"id":"cruncy","name":"بيتزا كرانشي","image":"https://images.pexels.com/photos/26341212/pexels-photo-26341212.jpeg?auto=compress&cs=tinysrgb&w=600","sizes":{"small":95,"medium":110,"large":125}},
+        {"id":"tuna","name":"بيتزا تونة","image":"https://images.pexels.com/photos/33457625/pexels-photo-33457625.jpeg?auto=compress&cs=tinysrgb&w=600","sizes":{"small":90,"medium":105,"large":120}},
+        {"id":"mix-chicken","name":"بيتزا ميكس فراخ","image":"https://images.pexels.com/photos/27582710/pexels-photo-27582710.jpeg?auto=compress&cs=tinysrgb&w=600","sizes":{"small":100,"medium":115,"large":130}},
+        {"id":"mix-meat","name":"بيتزا ميكس لحوم","image":"https://images.pexels.com/photos/15813490/pexels-photo-15813490.jpeg?auto=compress&cs=tinysrgb&w=600","sizes":{"small":100,"medium":115,"large":130}},
+        {"id":"almazaq","name":"بيتزا المذاق","image":"https://images.pexels.com/photos/12046657/pexels-photo-12046657.jpeg?auto=compress&cs=tinysrgb&w=600","sizes":{"small":100,"medium":115,"large":130}},
+        {"id":"shrimp","name":"بيتزا جمبري","image":"https://images.pexels.com/photos/12314829/pexels-photo-12314829.jpeg?auto=compress&cs=tinysrgb&w=600","sizes":{"small":100,"medium":115,"large":130}}
+      ]
+    },
+
+    {
+      "id": "pasta",
+      "name": "الباستا والمكرونات",
+      "items": [
+        {"id":"bechamel","name":"بشاميل","image":"https://images.pexels.com/photos/5724557/pexels-photo-5724557.jpeg?auto=compress&cs=tinysrgb&w=600","price":50},
+        {"id":"gresco","name":"نجرسكو","image":"https://images.pexels.com/photos/4378159/pexels-photo-4378159.jpeg?auto=compress&cs=tinysrgb&w=600","price":50},
+        {"id":"sausage","name":"سوسيس","image":"https://images.pexels.com/photos/31637792/pexels-photo-31637792.jpeg?auto=compress&cs=tinysrgb&w=600","price":50},
+        {"id":"vegetables","name":"خضار","image":"https://images.pexels.com/photos/18712234/pexels-photo-18712234.jpeg?auto=compress&cs=tinysrgb&w=600","price":50},
+        {"id":"mix-cheese","name":"ميكس جبن","image":"https://images.pexels.com/photos/4378160/pexels-photo-4378160.png?auto=compress&cs=tinysrgb&w=600","price":50},
+        {"id":"chicken-shawarma","name":"شاورما فراخ","image":"https://images.pexels.com/photos/12437582/pexels-photo-12437582.jpeg?auto=compress&cs=tinysrgb&w=600","price":60},
+        {"id":"mix-chicken","name":"ميكس فراخ","image":"https://images.pexels.com/photos/28752808/pexels-photo-28752808.jpeg?auto=compress&cs=tinysrgb&w=600","price":65},
+        {"id":"mix-meat","name":"ميكس لحوم","image":"https://images.pexels.com/photos/14079234/pexels-photo-14079234.jpeg?auto=compress&cs=tinysrgb&w=600","price":65}
+      ]
+    },
+
+    {
+      "id": "waffles",
+      "name": "الوافل",
+      "items": [
+        {"id":"chocolate","name":"وافل شيكولاتة","image":"https://images.pexels.com/photos/789327/pexels-photo-789327.jpeg?auto=compress&cs=tinysrgb&w=600","price":35},
+        {"id":"mix-chocolate","name":"وافل ميكس شيكولاتة","image":"https://images.pexels.com/photos/37436076/pexels-photo-37436076.jpeg?auto=compress&cs=tinysrgb&w=600","price":45},
+        {"id":"banana-chocolate","name":"وافل شيكولاتة موز","image":"https://images.pexels.com/photos/36071505/pexels-photo-36071505.jpeg?auto=compress&cs=tinysrgb&w=600","price":40},
+        {"id":"mix-strawberry","name":"وافل ميكس فراولة","image":"https://images.pexels.com/photos/11714571/pexels-photo-11714571.jpeg?auto=compress&cs=tinysrgb&w=600","price":45},
+        {"id":"almazaq","name":"المذاق الشامي","image":"https://images.pexels.com/photos/5639336/pexels-photo-5639336.jpeg?auto=compress&cs=tinysrgb&w=600","price":50},
+        {"id":"lotus","name":"لوتس","image":"https://images.pexels.com/photos/28935532/pexels-photo-28935532.jpeg?auto=compress&cs=tinysrgb&w=600","price":50}
+      ]
+    },
+
+    {
+      "id": "meals",
+      "name": "الوجبات",
+      "items": [
+        {"id":"pane-combo","name": "بانيه كوكي","image":"https://images.pexels.com/photos/36879217/pexels-photo-36879217.jpeg?auto=compress&cs=tinysrgb&w=600","price":55},
+        {"id":"shish-tawook","name":"شيش طاووق","image":"https://images.pexels.com/photos/8707683/pexels-photo-8707683.jpeg?auto=compress&cs=tinysrgb&w=600","price":85},
+        {"id":"-frecrispysh","name":"كرسبي فريش","image":"https://images.pexels.com/photos/36879172/pexels-photo-36879172.jpeg?auto=compress&cs=tinysrgb&w=600","price":85},
+        {"id":"zinger-fresh","name":"زنجر فريش","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIuD90uuFvchnjWmw2YCSU1il71Fp7bmbtq-R73PmtYQ&s=10","price":85},
+        {"id":"escalope","name":"أسكالوب","image":"https://images.pexels.com/photos/36879227/pexels-photo-36879227.jpeg?auto=compress&cs=tinysrgb&w=600","price":85},
+        {"id":"almazaq-meal","name":"وجبة المذاق الشامي","image":"https://images.pexels.com/photos/11161419/pexels-photo-11161419.jpeg?auto=compress&cs=tinysrgb&w=600","price":95}
+      ]
+    },
+    
+    {
+      "id": "broast",
+      "name": "وجبات البروست والفرن",
+      "items": [
+        {"id":"quarter-broast","name":"ربع فرخة 2 قطعة","image":"https://images.pexels.com/photos/14686443/pexels-photo-14686443.jpeg?auto=compress&cs=tinysrgb&w=600","price":80},
+        {"id":"half-broast","name":"نصف فرخة 4 قطع","image":"https://images.pexels.com/photos/12916871/pexels-photo-12916871.jpeg?auto=compress&cs=tinysrgb&w=600","price":145},
+        {"id":"full-broast","name":"فرخة كاملة 8 قطع","image":"https://images.pexels.com/photos/14686448/pexels-photo-14686448.jpeg?auto=compress&cs=tinysrgb&w=600","price":270},
+        {"id":"quarter-grill","name":"ربع فرخة جريل","image":"https://images.pexels.com/photos/14716239/pexels-photo-14716239.jpeg?auto=compress&cs=tinysrgb&w=600","price":75},
+        {"id":"half-grill","name":"نصف فرخة جريل","image":"https://images.pexels.com/photos/37417613/pexels-photo-37417613.jpeg?auto=compress&cs=tinysrgb&w=600","price":130},
+        {"id":"full-grill","name":"فرخة فرن جريل","image":"https://images.pexels.com/photos/19615787/pexels-photo-19615787.jpeg?auto=compress&cs=tinysrgb&w=600","price":250}
+      ]
+    },
+
+    {
+      "id": "fatta",
+      "name": "الفتات",
+      "items": [
+        {"id":"shawarma-fatta","name":"فتة شاورما","image":"https://images.pexels.com/photos/7426870/pexels-photo-7426870.jpeg?auto=compress&cs=tinysrgb&w=600","sizes":{"small":75,"large":115}},
+        {"id":"crispy-fatta","name":"فتة كرسبي","image":"https://images.pexels.com/photos/36879208/pexels-photo-36879208.jpeg?auto=compress&cs=tinysrgb&w=600","sizes":{"small":75,"large":120}},
+        {"id":"zinger-fatta","name":"فتة زنجر","image":"https://images.pexels.com/photos/12339072/pexels-photo-12339072.jpeg?auto=compress&cs=tinysrgb&w=600","sizes":{"small":75,"large":120}},
+        {"id":"escalope-fatta","name":"فتة أسكالوب","image":"https://images.pexels.com/photos/5175612/pexels-photo-5175612.jpeg?auto=compress&cs=tinysrgb&w=600","sizes":{"small":80,"large":130}}
+      ]
+    },
+
+    {
+      "id": "chicken-crepes",
+      "name": "كريب الفراخ",
+      "items": [
+        {"id":"pane","name":"كريب بانيه","image":"https://images.pexels.com/photos/14979832/pexels-photo-14979832.jpeg?auto=compress&cs=tinysrgb&w=600","sizes":{"small":35,"large":50}},
+        {"id":"shawarma","name":"كريب شاورما فراخ","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4A05GAQ0GgjYv2_DY6hHId9djz3OOo5fVzYkXjC0refqdyQzUdEhPf4g7&s=10","sizes":{"small":60,"large":80}},
+        {"id":"fajita","name":"كريب فاهيتا فراخ","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1FiLP75FL5EIkBZ1TJWBz-4YoKIJ60GpNn6bEHov_XtHlw9fZhzRhd30R&s=10","sizes":{"small":60,"large":80}},
+        {"id":"strips","name":"كريب أستربس","image":"https://hero-food.com/public/uploads/all/wzceKLnskc3slYycr31qSrfLCfQISTRDKWwW8lnc.jpg","sizes":{"small":60,"large":80}},
+        {"id":"zinger","name":"كريب زنجر فريش","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmDg8Ooza7U-sS5iddUjOpKTXW4rLWFCnUetFTIlhSJA&s=10","sizes":{"small":60,"large":80}},
+        {"id":"crispy","name":"كريب كرسبي فريش","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxgQpbJrb7vs6_owYRbdYwjdWyQCr9iL8x4rYbU6GmaQ&s=10","sizes":{"small":60,"large":80}},
+        {"id":"shish","name":"كريب شيش طاووق","image":"https://images.deliveryhero.io/image/talabat/MenuItems/31-5-2021_Talabat_Eg_637584142746033972.jpg","sizes":{"small":60,"large":80}},
+        {"id":"crunchy","name":"كريب كرانشي","image":"https://images.deliveryhero.io/image/talabat/MenuItems/strips_6371044462190_637509397402787803.jpg","sizes":{"small":70,"large":85}},
+        {"id":"escalope","name":"كريب أسكالوب","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbTQNvfteQgwPVW-zci2Iw8A5C0cq_l1wkxISbfRSjmWRGgWhfTtJg2hA&s=10","sizes":{"small":70,"large":90}},
+        {"id":"mix","name":"كريب ميكس فراخ","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk4hJIAgZFqGg6j-u235bXcqtGAG-7E05sQqd9976GUg&s=10","sizes":{"small":75,"large":95}}
+      ]
+    },
+
+    {
+      "id": "meat-crepes",
+      "name": "كريبات اللحوم",
+      "items": [
+        {"id":"sausage","name":"كريب سجق","image":"https://papai.online/wp-content/uploads/2024/11/7.png","sizes":{"small":50,"large":65}},
+        {"id":"liver","name":"كريب كبدة","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZy9GLXf_YawOU3UkzTyLaDBs6Qi4Du161g0I7Fa7o9A&s=10","sizes":{"small":50,"large":65}},
+        {"id":"sousis","name":"كريب سوسيس","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT83PdF-o10TtmKejookXD5n8jd7Vflfu2SltDwLsfUQ&s=10","sizes":{"small":50,"large":65}},
+        {"id":"kofta","name":"كريب كفتة","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9RKmXabqMLtCY1UVWGW9yMQ5pYn-Jr3vcZWrpvQM5EQ&s=10","sizes":{"small":50,"large":70}},
+        {"id":"burger","name":"كريب برجر","image":"https://hero-food.com/public/uploads/all/58Kkd7owll6djCbPcpFesD3mPIvyZxgXHXshgTdi.jpg","sizes":{"small":50,"large":70}},
+        {"id":"pastrami","name":"كريب بسطرمة","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR725AD6ivyAMGtXEjtOktXTAq61uBdCaLMkUkqSUbvjQ&s=10","sizes":{"small":55,"large":75}},
+        {"id":"salami","name":"كريب سلامي","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1J5ahGizdEzQWPtaQSdiSvXCTZPd9X-szOKV8ejSZ-g&s=10","sizes":{"small":60,"large":80}},
+        {"id":"meat-shawarma","name":"كريب شاورما لحمة","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwguGhO5uoHw6DD-vjB88xZpv7ztbosvwQNddN5LqUSg&s=10","sizes":{"small":60,"large":80}},
+        {"id":"mix-meat","name":"كريب ميكس لحم","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxgQd-ilRPRRN_Z1fzOz0KEWBibqapvqDVsIRaXa4DmA&s=10","sizes":{"small":75,"large":95}}
+      ]
+    },
+
+    {
+      "id": "shawarma",
+      "name": "شاورما الفراخ",
+      "items": [
+        {"id":"small","name":"شاورما سوري صغير","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkSu8QV8RFMhuGQlTV7YKBj3giDrNXMx100WghvC4csA&s=10","price":50},
+        {"id":"large","name":"شاورما سوري كبير","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5MlUO3o_EwCgCAB2w0UXNzxOb6R7_2q3Q-wmZWCXkpA&s=10","price":70},
+        {"id":"rocket","name":"شاورما صاروخ","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStAkqkZuAnGFiHPrhBCkz5uSg9IgSkMP_99-PKISUNNA&s=10","price":90},
+        {"id":"araby","name":"شاورما عربي","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZMHRx4NYW7LKb9C-GFbskIMljwQoDrGANVqUVlG7-8Q&s=10","price":75},
+        {"id":"double-araby","name":"شاورما عربي روبل","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiFz0pJoGy6yHkcIWUn1W3TpxhbvBAMGDD6VDezcJkbg&s=10","price":120},
+        {"id":"meal","name":"وجبة شاورما شرائح","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTegZCYuFQhMGH275GhR1-sB4wPp5jEkKC5u-hTtrAC5A&s=10","price":110},
+        {"id":"half-kilo","name":"نصف كيلو شاورما","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3I5dTaOu4SG9CPalAkap6zoOU4MtheJuZlTXHIv6sog&s=10","price":220}
+      ]
+    },
+
+    {
+      "id": "crepes",
+      "name": "الكريبات",
+      "items": [
+        {"id":"potato","name":"كريب بطاطس","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR734wdqQhiJtHjcL53Ncfv5ZK-z0tZMfWMwx1O2Kwclw&s=10","sizes":{"small":30,"large":40}},
+        {"id":"mix-cheese","name":"كريب ميكس جبن","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlzOvRv28mLaLUOuqRp9U7Fy6YiMPa7zeGDXIEacW4dw&s=10","sizes":{"small":45,"large":60}},
+        {"id":"tuna","name":"كريب تونة","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF7wVvnh1w9Bt8Gtzf_JOtM0TbZwhY4-Vb34Wvd2y6uQ&s=10","sizes":{"small":50,"large":75}},
+        {"id":"shrimp","name":"كريب جمبري","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxVcmOlNOAfKERIc6OT1K-B9uGrBvwcTzibrYTtkPI4Q&s=10","sizes":{"small":60,"large":80}}
+      ]
+    },
+
+    {
+      "id": "sweet-crepes",
+      "name": "كريب الحلو",
+      "items": [
+        {"id":"chocolate","name":"كريب شيكولاتة","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnBH9bcxGkc5YKN-CM8u1KHJCSoe8nQRqRyQaN-q-Hxw&s=10","price":25},
+        {"id":"mix-chocolate","name":"كريب ميكس شيكولاتة","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa0tm2ADS2kWm2EBLfUIIiD8vV7nzpBYvL12zE3UKUXw&s=10","price":35},
+        {"id":"banana","name":"كريب شيكولاتة موز","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH1RfwcfHMgffvh7aP7_t1uTSsBDxaPqoZYD-Qh84vyQ&s=10","price":40},
+        {"id":"oreo","name":"كريب أوريو","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Hr3dImYEItEHhgoX1zxC6YAJE7Vi8E-xCZtmQNJJYw&s=10","price":40},
+        {"id":"lotus","name":"كريب لوتس","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8v2C_9t5R_HZNQ3vs3HVMTcywqjolrogIjat37HnEXg&s=10","price":40}
+      ]
+    },
+
+    {
+      "id": "syrian-sandwiches",
+      "name": "سندوتشات سوري",
+      "items": [
+        {"id":"potato","name":"بطاطس","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhLoSm7CQKqkIBJC33deYS-IKAnGVXQ0F0hZPv2AXhfw&s=10","sizes":{"small":15,"large":25}},
+        {"id":"mozzarella-potato","name":"بطاطس موتزاريلا","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCKdgLYmv1fO30OQjDvUtSzY0GkYOpUl5ByaSHvi7ifA&s=10","sizes":{"small":25,"large":30}},
+        {"id":"pane","name":"بانيه","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlNGHzJnkdiSTwm-e4B4OUER5_QcYe_lvabklhfX04eg&s=10","sizes":{"small":25,"large":35}},
+        {"id":"sausage","name":"سجق","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxgb_52XoeVghv6ycOPqpgB3df2ZBFyZesTRncntPpDQ&s=10","sizes":{"small":30,"large":40}},
+        {"id":"sousis","name":"سوسيس","image":"https://takeawayabnoub.menufaster.com/uploads/e0e07584-7f8c-466c-8218-dbae91c20c39.png.webp","sizes":{"small":30,"large":40}},
+        {"id":"liver","name":"كبدة","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3MW1mE7rjV4KCTNQYVZ3BeiM1eCX3EgqLcyFK3DMwow&s=10","sizes":{"small":30,"large":40}},
+        {"id":"burger","name":"برجر","image":"https://i.ytimg.com/vi/gU1U9-XPh88/maxresdefault.jpg","sizes":{"small":35,"large":50}},
+        {"id":"mix-cheese","name":"ميكس جبن","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM4vs_sKjduYIYYj37G77UF7JliwGdRw-8D7TCuzrQF8rhYVkZ5ppJII6k&s=10","sizes":{"small":30,"large":40}},
+        {"id":"fajita","name":"فاهيتا فراخ","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMtkM6vL994mVuzUMeSJqr4oKo_lfL24jRvZenSe5KYQ&s=10","sizes":{"small":45,"large":60}},
+        {"id":"strips","name":"أستربس","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS60_oC63q5UthgYExTMBtebNcDL2FKWCoaO5lCXL_N3g&s=10","sizes":{"small":40,"large":60}},
+        {"id":"zinger","name":"زنجر فريش","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8-nc9r9WWjc4q4XWr-c6odg9obKF1zj0BYthW4zKTiA&s=10","sizes":{"small":40,"large":60}},
+        {"id":"crispy","name":"كرسبي فريش","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8rGUacN9Jo3zEVJGhMDicXKB0nG4AlO8q65mOyyZFeloSsr7N3mf97V8&s=10","sizes":{"small":40,"large":60}},
+        {"id":"escalope","name":"أسكالوب","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtVcaz0ivN0fk8ra1DUdN3HvvcWS63j7KLsxRckVORMA&s=10","sizes":{"small":50,"large":70}},
+        {"id":"shish","name":"شيش طاووق","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4cR1YAOefMsG3aiLrtppiuLvTi7nyEYUnE00beFeOZg&s","sizes":{"small":50,"large":65}},
+        {"id":"pastrami","name":"بسطرمة","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0WZ5qGceMegElsiDTKVlPMJxvv-gcSPJVuANk3gIdzyXFTAQ1nNbnRp0&s=10","sizes":{"small":50,"large":65}},
+        {"id":"fajita-meat","name":"فاهيتا لحم","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSww1SW4RtPeD7QOUepH8tme1Dygr4mWdkIFrVxhHO8OQ&s=10","sizes":{"small":60,"large":80}},
+        {"id":"meat-shawarma","name":"شاورما لحم","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkOzogntEOTUCAA5tadUFV1N-sDsbd_1VJ4mtmOQA5Ug&s=10","sizes":{"small":65,"large":90}},
+        {"id":"almazaq-rocket","name":"صاروخ المذاق","image":"https://img.ananinja.com/media/ninja-catalog-42/restaurants/t4vj739d1yxqgag39k166itivaxp/68516038a3e3e102c2397684.jpg?w=1080&q=75","sizes":{"small":75,"large":95}}
+      ]
+    }
+  ]
+}
